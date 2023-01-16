@@ -1,0 +1,108 @@
+body {
+
+    background-color: #171810;
+}
+
+
+#menuBarDiv nav {
+    padding-left: 2rem;
+
+}
+#menuBarDiv a {
+    font-family: monospace;
+}
+
+#logoDiv {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: white;
+}
+
+
+/* About Page */
+#logoAboutDiv {
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+}
+.intro {
+    background-color: #0DEE78;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+    margin-top: 4rem;
+    margin-left: 20rem;
+    
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    
+    animation: slideLeft 4s;
+}
+#content{
+    border-left: 2px solid #110011;
+    padding-left: 1rem;
+}
+#content p {
+    color: black;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: 500;
+
+    animation: slideRight 3s;
+}
+
+
+@keyframes slideLeft {
+    0%{margin-left: 90rem;}
+    20%{margin-left: 20rem;}
+}
+@keyframes slideRight {
+    0%{margin-right: 30rem;}
+    50%{margin-right: 0rem;}
+}
+
+
+
+
+/* Download Page */
+#logoDownloadDiv {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.introDownload {
+    background-color: #C61E2A;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+    margin-top: 4rem;
+    margin-left: 25rem;
+    
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    
+    animation: slideLeftx 4s;
+}
+#introDownloadDiv #content p {
+    color: black;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: 500;
+
+    animation: slideRightx 3s;
+}
+@keyframes slideLeftx {
+    0%{margin-left: 90rem;}
+    20%{margin-left: 25rem;}
+}
+@keyframes slideRightx {
+    0%{margin-right: 30rem;}
+    50%{margin-right: 0rem;}
+}
